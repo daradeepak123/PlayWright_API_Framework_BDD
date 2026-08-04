@@ -1,0 +1,153 @@
+
+
+
+Agenda
+	1. Constructor
+		typescript
+		class ABC{
+
+			constructor(){
+
+	
+	
+			}
+
+
+
+}
+
+
+	2. Inheritance
+
+
+a. Single level
+b. multi level
+c. hierarchical
+d. hybrid 
+
+
+abstract class Abc{
+
+abstract hello();
+hi(){}
+variables
+
+}
+
+class zxc extends Abc
+{
+hello()
+{
+	body of code
+}
+}
+
+Abstractions
+
+	abstract methods
+	abstract class
+	Interface
+
+abstract class design{
+
+4 abstract methods
+
+}
+
+
+
+abstract Car extends design
+{
+
+abstract wheels4();
+abstract doors4();
+abstract seatingCapacity();
+seatbelt()
+{
+standard and mandatory
+}
+
+}
+
+
+
+class Maruthi extends Car{
+
+wheels4(){     }
+
+}
+class Benz extends Car{
+
+}
+
+class Audi extends Car{
+
+}
+
+class Ford extends Car{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+I wated to know active student or not
+
+
+interface country
+{
+abstract captialCity():void;
+abstract currency():void;
+abstract army():void
+abstract language():void
+abstract eatingHabits():void
+abstract siteSignPlaces:void
+}
+
+
+class India implements country{
+abstract captialCity():void{c.l("Delhi")}
+abstract currency():void {c.l("INR")}
+abstract army():void {"IA"}
+abstract language():void {"M language mostly speak hindi and englisg "}
+abstract eatingHabits():void  {"prefer veg non veg also available"}
+abstract siteSignPlaces:void  { "Beaches mountains" }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

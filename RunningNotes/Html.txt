@@ -1,0 +1,66 @@
+
+
+Agenda
+	1. html
+
+
+tag
+attribute
+value
+
+<john id="101" complexion="fair" weight="80" height="6" >
+
+
+
+</john>
+
+<html>
+	<a href="https://the-internet.herokuapp.com/">Hero app</a>
+	<input></input>
+
+	<table>
+		<th>
+			
+	
+		</th>
+		<tr><tr>
+		
+	
+	
+	</table>
+</html>
+
+
+
+
+
+
+
+
+
+relations
+
+
+<div>
+	<input>
+		<input></input>
+	</input>
+	<button></button>
+</div>
+
+
+npm install playwright/@latest
+
+npm install playeright/test
+
+
+
+
+
+
+
+
+
+
+
+

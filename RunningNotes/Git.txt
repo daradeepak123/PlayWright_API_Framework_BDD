@@ -1,0 +1,54 @@
+
+npm install
+
+
+Agenda
+	1. Git
+
+		version control system
+		keep a track of your versions
+
+
+version 1
+	send message
+	receive message
+
+version 2
+	adding emojis
+
+3
+	voice calling
+
+4 
+	video calling
+
+
+5
+	status
+
+		repository 
+
+			remote repository
+					100000
+			local repository 
+					1000
+
+
+
+
+
+
+
+Commands
+	1. git init   used to initialize the folder
+	2. git add *  used to track the files and used to stage the files
+	3. git commit -m "<meaning full message>"
+	4. git push origin <branch name>
+
+cloning
+	1. git clone <repo URL>
+	2. git pull origin <branch name>
+
+
+
+

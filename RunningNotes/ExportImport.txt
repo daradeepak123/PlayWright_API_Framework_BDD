@@ -1,0 +1,74 @@
+
+Recap:
+	
+
+
+
+
+Agenda
+	1. export
+	2. Import
+
+	3. variables
+		1. let
+		2. const
+		3. var
+	4. dataTypes
+
+
+let aa=100	
+
+
+a=50
+
+
+a="String Data 000111"
+
+variables is nothing but a container 
+		store the data
+
+
+	
+
+
+I have 
+	apples
+	export mangoes
+
+
+you 
+
+	import  {mangoes} from ".\Deepak's place"
+
+
+
+dataTypes
+	dataTypesLogics.ts
+	dataTypesExecution.ts
+
+
+
+
+
+ function numberStore()
+{
+let a =100;
+console.out(a);
+}
+
+
+
+
+
+folder with the name of topic
+	logic file 
+	execution file
+
+
+
+	
+
+
+
+
+

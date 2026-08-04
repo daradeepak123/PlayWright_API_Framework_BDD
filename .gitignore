@@ -1,0 +1,20 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

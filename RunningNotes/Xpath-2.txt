@@ -1,0 +1,49 @@
+
+
+
+Agenda
+	1. Relation
+		a. parent
+		b. child
+		c. sibling
+			following-sibling
+			preceding-sibling 
+	2. / //
+	3. *
+
+
+
+<Jagan id='ex-cm'>
+	<varsha></varsha>
+</jagan>
+
+
+<venkat>
+	<chiru id='MS'></chiru>
+	<nagBabu></nagbabu>
+	<pavan id='ps'></pavan>
+</venkat>
+
+
+<div id="abc">
+	<input></input>    // 
+	<button></button>
+</div>
+
+//div[@id='abc']/child::button
+
+//a[@href='/abtest']/parent::li
+
+//a[text()='A/B Testing']/parent::li
+
+//h2[text()='Available Examples']/following-sibling::ul//a[text()='Typos']/parent::li
+
+
+
+//table[@id='table1']//td[text()='Jason']/following-sibling::td[4]/a[text()='edit']
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+
+
+Agenda
+	1. Introduction to typescript
+	2. Challenges by JS
+	3. installations
+	4. DataTypes
+
+
+Naming Conventions
+	camel Casing 
+
+
+
+skillSetTB
+
+
+
+com.amazon
+
+com.amazon.homePage
+
+
+
+
+
+

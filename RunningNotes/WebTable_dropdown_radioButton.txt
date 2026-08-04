@@ -1,0 +1,36 @@
+
+
+
+Agenda
+	1. RadioButton
+	2. Dropdown
+	3. WebTable
+	4. Generic methods
+		business utils
+
+
+calc.ts
+
+export function add(num1:number,num1:number)
+{
+console.log(num1+num2)
+}
+
+exece.ts
+
+import {add} from "./calc"
+
+add(10,10)
+
+
+select
+	option
+	option
+	
+
+
+
+
+
+
+

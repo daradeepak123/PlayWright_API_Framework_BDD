@@ -1,0 +1,47 @@
+
+
+
+Agenda
+	1. Datatypes
+		a. Operators
+			1. Arithmetic
+				+ - / * %
+
+10+10=20
+
+let num:number=10
+let num2:number=10
+let result:number=num%num2
+console.log(result)
+
+
+Assignment operator
+			= += -= *= /+ %= &= |=
+let num:number=10
+// 10
+num=500
+//500
+num+=100   //  500 +  100=     600        1000
+//600
+600
+num-=100  //  500-> 7   400 -> 3
+
+//500
+
+num*=10    //   5000 
+
+num/=10    //   500
+
+num%=10    //    0
+num is 0
+
+
+
+
+			2. Comparator 
+			3. Logical
+			4. Incremental/Decremental 
+			5. ternary
+			6. Assignment
+	 
+	

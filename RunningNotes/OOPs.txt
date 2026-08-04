@@ -1,0 +1,60 @@
+
+
+
+
+Agenda
+	1. OOPs
+
+		a. class
+		b. functions   methods
+			a. function
+			b. function with parameter
+			c. return type
+			d. sync and async 
+				promise
+		c. object
+			
+		d. abstraction
+		e. encapsulation
+			access modifier 
+			getter and setter 
+		f. Inheritance
+		g. polymorphism 
+
+
+
+class baseClass
+{
+static variables
+objects
+static functions
+constructors
+} 
+
+static / non-static
+
+
+
+
+
+
+
+
+
+
+class ABC
+{
+let a:number=100
+static let b:number=500
+}
+
+let p=new ABC()
+console.log(p.a)
+console.log(static.b)
+
+
+
+
+
+	
+

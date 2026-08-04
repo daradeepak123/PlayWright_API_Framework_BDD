@@ -1,0 +1,103 @@
+
+
+
+
+Agenda
+	1. Constructors
+	2. Inheritance
+	3. Encapsulation
+	4. Abstraction
+	5. Polymorphism 
+
+
+
+
+Constructors
+	looks like a method but it is not a method
+	constructors are invoked but not called
+	you can parameter the constructor
+	you cannot have any return type for constructor
+	how syntactically it looks like?
+	constructor name and class name should be exact match
+	constructor should be created inside a class
+	default constructor will be there
+	purpose is to initialize variables which are present in class
+className()
+{
+body
+}
+
+
+abc.ts 
+
+class ABC{
+
+}
+
+let o=new ABC()
+
+
+
+
+
+it have body
+it performs all the code when it is called
+
+	
+
+
+an object
+
+
+management gave me a task to save all the student info in the program
+	display all the details of student
+
+class student
+{
+
+rollNum:number
+name:string
+gender:string
+currentStatus:boolean
+address:string
+phone:number | string
+static section:string="A"
+company:string
+static instuite :string="ST"
+
+displayDetails()
+{
+
+}
+
+}
+
+
+let stu1=new student()
+
+stu1.rollNumber=101
+stu1.name="John"
+stu1.gender="male"
+stu1.currentStatus=true
+stu1.address="hyd"
+stu1.phone=9999999999
+stu1.company="TCS"
+console.log(stu1.rollNumber)
+
+
+let stu2=new student()
+
+stu2.rollNumber=102
+stu2.name="Mary"
+stu2.gender="female"
+stu2.currentStatus=true
+stu2.address="hyd"
+stu2.phone=9999999998
+stu2.company="Infosys"
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+
+
+Agenda
+	1. Methods/functions
+		parameters
+
+
+Method is nothing but a block of code and will get executed when ever it is called.
+
+
+
+I am calling 
+	carpenter  (Skill set of carpentry)
+
+call carpenter again
+
+	parameters
+
+
+
+
+
+
+Mixer grinder?
+ blend what <groundNuts>
+
+
+
+Assignments
+	1. Write the program with function Support.
+	2. Parameter the function.
+
+
+
+

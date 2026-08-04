@@ -1,0 +1,103 @@
+
+
+.js
+
+let abc=500
+
+abc="hello"
+
+Agenda 
+	1. DataTypes and Variables
+
+Variables are nothing but containers
+
+let a:number=100
+const aa:string="hello"
+var cc:string="hello"
+
+
+TypeScripe
+let num:number=500
+
+num=-1000.999
+num=0
+num="hello"
+
+JavaScript
+let num=500
+
+number  negative numbers positive numbers 0 decimals   
+string	sentence spl characters numbers  caps /small  mixture
+	surround the data with ""
+	store what ever you want
+		numbers
+		alphabets
+		characters
+		spl characters
+		sentences 
+
+
+let varName:string="SkillTransform"
+
+const abc:number=500
+var v:number=10000
+v=50
+
+Boolean 
+interface
+object
+union
+alias
+
+let add:string="1"
+
+let add1:string="abc"
+
+
+let address:string="Ramoji Film City is an integrated film studio facility located right outside of Hyderabad, India. Spread over 2,000 acres, it was recognized as the world's largest film studio complex by the Guinness World Records in 2005."
+
+
+
+Boolean   true/false
+
+
+
+let flag:boolean=true
+
+
+
+interface Employee
+{
+	id:number;
+	name:string;
+	phoneNumber:number;
+	isActive:boolean;
+	salary:number;
+}
+
+const ram: Employee={
+	id:101,
+	name:"Ram"
+	phoneNumber:9999999999
+	isActive:true
+	salary:1000000;
+}
+
+const krish: Employee={
+	id:102,
+	name:"Krish"
+	phoneNumber:9999999998
+	isActive:true
+	salary:1500000;
+}
+
+
+
+
+
+
+
+
+	
+
+	

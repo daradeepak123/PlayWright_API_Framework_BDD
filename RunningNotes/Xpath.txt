@@ -1,0 +1,112 @@
+
+
+Agenda
+	1. Xpath
+
+
+		a. absolute xpath   /html/lastelement
+		b. relative xpath   //
+
+			tag and attribute
+				//tag[@attribute='value']
+			tag and multiple attributes
+		
+
+<input type='abc1' class='xyz3' placeholder='qwe1' name='asd4'></input>
+<input type='abc2' class='xyz2' placeholder='qwe3' name='asd3'></input>
+<input type='abc3' class='xyz1' placeholder='qwe2' name='asd2'></input>
+<input type='abc1' class='xyz2' placeholder='qwe2' name='asd3'></input>
+<input type='abc2' class='xyz3' placeholder='qwe3' name='asd2'></input>
+
+//input[@type='abc2' or @class='xyz2']
+
+
+	
+
+			text
+				simple text   
+					//tag[text()='valueOfText']
+				contains text 
+					//tag[contains(text(),'value')]
+				starts-with
+
+
+<span>welcome to Skill Transform</span>
+
+//span[text()='welcome to Skill Transform']
+
+//span[contains(text(),'Skill')]
+
+
+//span[starts-with(text(),'welcome')]
+
+
+			relations
+
+
+
+
+ST
+
+/RS/takeLeft/drive5KM/takeright/d6KM/take 7thleft/buldin/6thfloow/ST
+
+
+
+
+
+currentLocation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+hybrid FW (DD KW) POM
+
+BDD Cucumber with POM
+
+Tell me about yourself.
+Do you have any questions for me?
+How do you configure an Azure DevOps pipeline for Playwright automation?
+Are your pipeline runs manually triggered or scheduled?
+If scheduled, when are they triggered (daily, weekly, after deployment, etc.)?
+What pipeline variables do you pass while triggering a pipeline run?
+After a pipeline run is complete, how do you analyze the execution results?
+How do you differentiate between a functional defect and a script issue?
+If a pipeline run fails, do you fix the issue yourself or involve the DevOps team?
+Have you developed an automation framework from scratch, or have you always worked on an existing framework?
+Draw and explain the folder structure of your Playwright automation framework.
+What does each folder in your framework contain?
+How are the different folders linked together?
+Where do you define common actions like browser launch and browser closure?
+Where do you configure cross-browser execution?
+Where do you configure different environments (QA, UAT, etc.)?
+Where do you keep feature files and step definitions?
+Which reporting framework do you use—Cucumber reports or custom reports?
+How many test cases are there in your regression suite?
+Suppose your regression test data becomes invalid after deployment. How would you handle creating new test data within a three-day regression window?
+During regression, if you find a high-severity defect, what are your QA sign-off criteria?
+How would you communicate a high-severity defect to stakeholders, the QA Lead, and the Product Owner?
+What was the size of your QA team?
+Did all team members work on automation?
+Did all of you use the same Git repository?
+Have you encountered merge conflicts while raising a Pull Request?
+How did you resolve merge conflicts?
+Did you resolve conflicts locally or using the Azure DevOps online editor?
+Did you use GitHub Copilot to resolve merge conflicts?
+Have you ever faced issues because of GitHub Copilot's merge conflict suggestions?
+Did that experience make you prefer resolving merge conflicts manually?

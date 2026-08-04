@@ -1,0 +1,20 @@
+
+
+Agenda
+	1. PlayWright
+
+		interact with browser
+			perform action
+			What human does
+				click
+				type data
+				scroll
+				drag 
+				drop
+	2. installations and set up
+		npm init playwright@latest
+
+
+String
+
+

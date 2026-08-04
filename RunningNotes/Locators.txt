@@ -1,0 +1,32 @@
+
+
+Agenda
+	1. Locators
+
+		
+DOM Document object model
+
+page.goto("url")
+page -> locating Technique -> performing action
+
+page.locate()
+
+
+
+const emailTB=page.getByLabel('Password')
+let bool =await emailTB.isVisible()
+if(bool)
+{
+	emailTB.clear()
+	emailTB.fill("data")
+}
+
+
+3 types
+	1. pw in built
+		
+	2. css
+	3. xpath
+
+
+

@@ -1,0 +1,175 @@
+
+
+
+Agenda
+	1. OOPs
+
+		a. class
+		b. functions   methods       function/method
+			a. function
+				means block of code 
+				will be executed when they are called
+				Named functions and anonymous functions
+			b. function with parameter
+			c. return type
+			d. sync and async 
+				promise
+		c. object
+			
+		d. abstraction
+		e. encapsulation
+			access modifier 
+			getter and setter 
+		f. Inheritance
+		g. polymorphism 
+
+
+
+
+parameters and return type
+
+
+functions add(num1:number,num2:number,num3:number,num4:number,num5:number):number
+{
+	let sum:number=num1+num2+num3+num4+num5
+	return sum
+}
+
+let amount=add(100, 600,3,13,432)
+
+amount-10%
+
+
+add(1000, 6000,-3,-13,432)
+
+
+
+
+
+
+
+
+
+
+
+function welcomeAll(father:string, mother:string, child:string)
+{
+
+console.log("Hello Parents"+ father+" and "+mother+", we wanted to welcome you along with your child "+ child +"." )
+
+}
+
+
+welcomeAll(dad,mom,baby)
+
+
+
+
+
+palindrome
+
+function revString(str:string):string
+{
+
+logical script
+return "reversed data of sring"
+}
+
+let str:string="hello"
+
+let rev:string=revString(str)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function add1()
+{
+let aa:number=55+66
+}
+
+add1()
+add1()
+add1()
+add1()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function abc(name:string)
+{
+console.log("hello mr "+name+", welcome to ST")
+}
+
+abc("Stu1")
+abc("Stu2")
+abc("Stu3")
+abc("Stu100")
+
+
+
+Function/method a block of code
+1 line
+function instructions()
+{
+console.log("classes will get started By 8PM")
+console.log("We will discuss about JS TS PW")
+console.log("We will discuss about API")
+console.log("classes will end By 9PM")
+console.log("----------------------end of student---------------------")
+}
+
+
+
+
+console.log("Hello Student1, welcome to Skill Transform")
+instructions()
+
+
+
+console.log("Hello Student2, welcome to Skill Transform")
+instructions()
+
+
+
+console.log("Hello Student3, welcome to SkillTransform")
+instructions()
+
+
+console.log("Hello Student100, welcome to SkillTransform")
+instructions()
+
+
+
+Parameters
+	
+
+
+
+
+

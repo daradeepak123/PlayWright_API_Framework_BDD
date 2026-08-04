@@ -1,0 +1,64 @@
+
+
+
+Agenda
+	1. Back
+		1. Demo
+		2. Installations and project set Up
+			a. node 
+			b. vs code
+
+
+
+Functions/methods
+	
+function learn()
+{
+statements
+statements
+statements
+statements
+}
+
+learn()
+
+
+learn()
+
+learning parameter for the function
+
+export and import
+
+
+my home
+	export mangoes
+	export pineapple
+	apples
+
+seller
+	export rice
+your home
+	import {mangoes} from './myhome'
+	import {rice} from './seller'
+
+abc home
+	import {pineapple} from './myhome'
+xyz home
+	import {pineapple, mangoes} from './myhome'
+
+
+
+dataTypes
+	dataTypelogicFile.ts
+	dataTypeExecutionfile.ts
+condition
+
+operators
+
+
+
+
+
+
+
+

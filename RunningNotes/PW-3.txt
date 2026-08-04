@@ -1,0 +1,71 @@
+page.getByRole('button', {name:Itinéraire})
+page.getByTestID('directions')
+
+
+Agenda
+	1. Locators 
+		in built locators
+			7 METHODS
+		CSS
+		XPATH	
+0.001
+0.002
+0.003
+
+| Role       | HTML Elements                       |
+| ---------- | ----------------------------------- |
+| `button`   | `<button>`, `<input type="button">` |
+| `link`     | `<a href="">`                       |
+| `textbox`  | `<input type="text">`, `<textarea>` |
+| `checkbox` | `<input type="checkbox">`           |
+| `radio`    | `<input type="radio">`              |
+| `combobox` | `<select>`, autocomplete inputs     |
+| `option`   | `<option>`                          |
+| `heading`  | `<h1>`–`<h6>`                       |
+| `list`     | `<ul>`, `<ol>`                      |
+| `listitem` | `<li>`                              |
+| `table`    | `<table>`                           |
+| `row`      | Table rows                          |
+| `cell`     | Table cells                         |
+| `dialog`   | Modal dialogs                       |
+| `img`      | `<img>`                             |
+| `menuitem` | Menu items                          |
+| `tab`      | Tabs                                |
+| `tabpanel` | Tab panels                          |
+
+
+page.getByRole('table',{name:<>})
+
+
+
+CSS
+	
+	pure ID Value
+		#valueOfID
+		#
+	pure Class Value
+		.<value of class Attribute>
+	combination
+		tag and id
+		input#checkbox2
+		tag and class
+		label.checks
+		tag and multiple attributes
+		tag[attr=value]
+
+
+
+XPATH	
+
+
+
+
+
+
+
+
+
+
+
+
+

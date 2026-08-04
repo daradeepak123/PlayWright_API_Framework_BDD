@@ -1,0 +1,9 @@
+
+
+Today will talk about Git
+
+till now we discussed about basics of TypeScript
+
+JavaScript and type script are same
+
+Will learn about playwright

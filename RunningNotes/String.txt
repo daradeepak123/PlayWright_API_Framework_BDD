@@ -1,0 +1,81 @@
+
+Arrays with parameters
+
+
+
+function printArrayData(str:number | string | boolean[])
+{
+	for(let num of str)
+	{	
+		console.log(num)
+	}
+}
+
+
+let a:number[]=[21,2,312,43,54,12]
+printArrayData(a)
+
+
+
+Agenda
+	1. String
+		a. functions
+		b. printing patterns
+		c. duplicates
+		d. reverse
+		e. palindrome
+		f. some more
+
+
+
+I wanted to print strings in 
+	horizontal 
+	vertical 
+	reverse 
+	
+
+let str:string="hello"
+
+console.log(str)
+for(let i=0;i<str.length;i++)
+{
+console.log(str.charAt(i))
+}
+for(let i=str.length;i>=0;i--)
+{
+console.log(str.charAt(i))
+}
+
+
+
+hello
+h
+e
+l
+l
+o
+o
+l
+l
+e
+h
+olleh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

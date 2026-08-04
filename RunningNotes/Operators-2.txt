@@ -1,0 +1,51 @@
+
+
+Agenda
+	1. Logical
+		&& and  || or  ! not
+		false   true
+true/false
+
+A	B	&	|	!A	!B
+TRUE	TRUE	TRUE	TRUE	FALSE	FALSE
+TRUE	FALSE	FALSE	TRUE	FALSE	TRUE
+FALSE	TRUE	FALSE	TRUE	TRUE	FALSE
+FALSE	FALSE	FALSE	FALSE	TRUE	TRUE
+
+
+function andOperator(a:boolean, b:boolean):boolean
+{
+let flag:boolean=a&&b
+return flag
+}
+
+let flg:boolean=andOperator(true,true)
+console.log(flg)
+
+
+
+Task
+	Capture both firstname and last name
+	
+	use first name initial of last name as showcase
+
+
+	2. ternary operator 
+	
+	3. comparator
+		< > <= >= == === !==  Boolean 
+
+true	10!=30
+
+	let a:number=10
+	let b:number=5
+
+	let flag:boolean=a!=b
+
+let 
+
+
+		10<5   false
+
+
+

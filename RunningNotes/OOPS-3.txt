@@ -1,0 +1,183 @@
+
+
+
+Agenda
+	1. class
+	2. functions
+		sync and async
+		named and anonymous 
+		arrow functions
+	3. constructor
+	4. inheritance
+
+
+
+
+abc.ts
+
+
+export let a:number=500
+
+export function fun()
+{}
+
+export class hello
+{
+let aa:number=5000
+
+}
+
+
+
+
+
+
+xyz.ts
+
+import {a, hello} from "location"
+
+console.log(a)
+
+let o=new hello()
+console.log(o.aa)
+
+
+
+
+
+
+console.log("Start")
+
+setTimeout(()=>{ console.log("middle")},2000)
+
+console.log("End")
+
+
+
+
+
+sync and async
+
+Here 
+async function anasd(){
+1
+2
+3
+4
+5
+6
+7
+8
+}
+
+await 
+
+console.log("start")
+console.log("wait")
+console.log("end")
+
+
+
+let str:string="data"
+
+console.log(str.length)
+
+
+
+
+
+
+
+
+
+
+console.log("Start")
+
+setTimeout(()=>{ console.log("middle")},2000)
+
+console.log("End")
+
+
+
+async 
+
+do parallelly 
+
+
+await load url
+
+await fill uname
+await fill pwd
+await click login btn
+
+
+
+
+
+
+
+
+let aaa=function abc(a:number):string
+{
+let status:string="abc"
+if(a%2==0)
+{
+status="even"
+}
+else
+{
+status="odd"
+}
+return status
+}
+
+
+9 is prime or not
+
+if(aaa()=="even")
+{
+console.log(given numebr is not a prime number)
+}
+else
+{
+
+}
+
+
+
+
+add()
+sub()
+mul()
+
+
+100+200-50
+
+let ad= function add(a:number, b:number):number
+{
+return a+b
+}
+let su= function sub(a:number, b:number):number
+{
+return a-b
+}
+
+let num:number=su(ad(100,200),50)
+console.log(num)
+
+
+
+let ff=function (parameters):returnType
+{
+body
+}
+
+
+
+
+
+
+
+
+
+

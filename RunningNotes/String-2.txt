@@ -1,0 +1,54 @@
+
+
+
+Agenda
+	1. String
+		a. duplication in the given string
+		b. reverse a string
+		c. palindrome
+			mom == mom
+			are == era
+			
+
+let str:string="welcome"   //  0
+
+let ch:string="a"
+let fIndex:number=str.indexOf(ch)
+let lIndex:number=str.lastIndexOf(ch)
+
+
+if(fIndex==lIndex)
+{  
+console.log("given char is not duplicated")
+}
+else
+{
+console.log("given char is duplicated")
+}
+		1==6 false  
+
+
+
+let str2:string="mom and dad are going to meet madam"
+
+let word:string[]=str2.split(" ")
+
+for(let i of word)
+{
+	palindromeCheck(str1)	
+}
+
+reverse a string
+check palindrom
+
+
+
+
+
+
+
+
+
+
+
+

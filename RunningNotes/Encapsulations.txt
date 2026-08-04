@@ -1,0 +1,44 @@
+
+
+Agenda
+	1. Encapsulation
+		a. access modifiers 
+
+			1. public 
+			2. protected
+			3. private
+			4. readOnly
+
+	
+		b. getter and setter
+	
+		
+
+3 year baby    
+
+young girl/old person
+
+young boy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

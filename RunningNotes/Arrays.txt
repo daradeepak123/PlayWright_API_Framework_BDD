@@ -1,0 +1,61 @@
+
+
+Agenda
+	1. Arrays
+
+let <varName>:<dataTypes>[]=[<values>,<values>,<values>,....]
+
+let a:number[]=[10, 20, 12, 12, 231, 321]
+	arrays can store any data type
+	arrays can store duplicated data
+	arrays practice index
+	arrays store multiple data at a time
+
+
+length	1	2	3	4	5	6	7	8	9	10
+let a:number[]=[]	2	3	2	323	22	23	4	342	12	31
+position of storage	0	1	2	3	4	5	6	7	8	9
+
+ 
+
+let a:number=10
+
+a=11
+
+
+
+odd numbers and even numbers
+
+i wanted to check odd evens from 1 - 100 numbers
+
+let numbers:number[]=[]
+let even:number[]=[]
+let odd:number[]=[]
+
+for(let i=0;i<100;i++)
+{
+numbers[i]=i+1
+}
+
+
+for(let i=0;i<100;i++)
+{
+if(a[i]%2==0)
+{
+even.push(numbers[i])
+}
+else
+{
+odd.push(numbers[i])
+}
+
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+Recap:
+	
+	Manual
+	challenges
+	Automation
+	
+
+
+
+Agenda
+	1. installations
+
+		1. NodeJS to be installed
+		2. IDE  -  Integrated development environment
+			1. vs Code	
+			2. Eclipse
+			3. IntelliJ
+			4. NetBeans
+			5. Kiro
+		
+	2. Project SetUp
+		a. Open visual studio
+		b. Execute below listed commands from terminal
+			1. npm init -y             -> initialized folder 
+			2. npm install playwright@latest -> Set up playwright to the location
+			3. npx playwright install -> downloads all browsers
+
+			4. npm install -d @playwright/test
+			5. npm install xlsx
+			6. npm install -D typescript
+			7. npm install -g ts-node typescript
+			8. npx tsc --init
+			9. run command npx tsx fileName.ts
+				npx ts-node <fileName.ts>
+
+
+	3. Basic programs
+		1. Management gave me a task to welcome all the students with the program.
+
+
+		node <locationOffile/With filename.extention>
+		node .\src\WelcomeStudent.js
+
+		1. Set instructions for each student
+			a. Class will get started by 8PM
+			b. We will discuss JS/TS PW
+			c. Class will end by 9PM
+
+Assignment
+		1. Write a program to welcome all the interviewees attending your company.
+
+
+Function/Method
+
+
+Function
+	collection of code and execute when called
+
+
+function nameOfFunction()
+{
+statements
+}
+
+
+
+
+method with parameters
+
+
+
+
+
+Assignments
+	1. Welcoming interviewees 	
+
+		a. lengthy program
+		b. functions
+		c. parameters
+
+
+
+
+
+
+
+
+
+
+
+
+

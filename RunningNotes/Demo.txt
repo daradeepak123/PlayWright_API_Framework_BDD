@@ -1,0 +1,56 @@
+
+
+
+Agenda
+	1. Manual Test
+		Regression  
+			1. Time
+			2. resources 
+			3. Accuracy 
+			4. Coverage
+	2. Automation Test
+		1 time till the app is there
+
+		1. Selenium Java   free
+		2. QTP
+		3. Cypress
+		4. PlayWright     more popular these days
+		5. Protractor 
+		6. TestCafe
+		7. Tosca
+
+
+	3. Transformation
+
+		1. execute the scripts
+		2. execute and fix the issues
+		3. Design testcases
+		4. Design frameworks 
+			
+		PageObject model
+			Hybrid
+				2 or more
+				data driven and keyword driven
+				
+			
+				BDD
+				PlayWright Execution
+			
+
+
+	a. JavaScript/TypeScript
+	b. PlawWright
+	c. API
+	d. DB
+	e. Integrations
+	f. AI
+		1. genAI
+		2. Prompting
+		3. Analysis
+		4. Fixes with AI
+	g. MCP Server
+
+
+
+
+

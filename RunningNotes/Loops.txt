@@ -1,0 +1,89 @@
+
+
+Agenda
+	1. Loops
+		simple for loop
+			loop with condition
+			break
+			continue
+			tables
+			infinite loop 
+		while loop
+		do while loop
+		for each loop
+		nested loop
+
+
+a. time
+b. repetition
+c. pressure on boy
+	drain his 
+d. line of commands 
+
+
+
+
+for(initialization; condition; inc/dec)
+{
+statements
+}
+
+
+for(let i:number=0;i<=5;i++) // 6<=5     
+{
+statement
+}
+
+
+
+if(1<=5)
+{
+statement
+}
+
+
+My manager gave me task to print 1-100 numbers
+
+
+for(let i:number=1;i<=100;i++)
+{
+	if(i==40)
+	{
+		continue;
+	}
+}
+
+
+How many even numbers are there  from 1-100
+
+
+break means here it is breaking the loop
+	break always need to associate with condition 
+	
+
+
+
+1*1=1
+1*2=2
+
+
+while loop
+
+initialization 
+
+while(true/false)
+{
+inc/dec
+}
+
+Do while loop 
+
+
+
+
+
+
+
+
+
+
