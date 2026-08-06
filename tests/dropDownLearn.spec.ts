@@ -6,7 +6,7 @@ test('Drop down deal', async({page})=>{
 await page.goto('https://the-internet.herokuapp.com/dropdown');
 let abc: Locator = page.getByRole('combobox');
 
-abc.selectOption('');
+abc.selectOption('1');
 
 await page.pause()
 
