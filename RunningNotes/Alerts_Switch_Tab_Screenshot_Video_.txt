@@ -1,0 +1,34 @@
+
+
+Agenda
+	1. Multiple Elements at a time
+	2. Alerts
+	3. Switch tab
+	4. Screenshot
+	5. Record screen
+	6. Functional Flow
+
+Multiple Elements at a time
+
+
+
+page.locator('//a')
+
+let links= page.getByrole('link')
+
+let countOfLinks= await links.lenght
+
+for(let i=0;i<countOfLinks;i++)
+{
+let textOnLinks=await links.nth(i).getattribute('href')
+console.log(textOnLinks)
+page.goto(textOnLinks)
+
+}
+
+
+
+
+
+
+

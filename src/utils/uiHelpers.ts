@@ -2,6 +2,12 @@ import { expect, Locator } from '@playwright/test';
 
 export class UIHelper {
 
+    static generateRandomText(prefix = 'test') {
+        const randomPart = Math.random().toString(36).substring(2, 8);
+        console.log(Math.random().toString(36))
+        return `${prefix}${Date.now()}${randomPart}`;
+    }
+
     static async isReady(locator: Locator): Promise<boolean> {
         return (await locator.isVisible()) && (await locator.isEnabled());
     }

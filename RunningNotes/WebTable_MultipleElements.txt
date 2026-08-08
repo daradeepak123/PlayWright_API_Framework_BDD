@@ -1,0 +1,13 @@
+
+
+Agenda
+	1. WebTable
+	2. Multiple elements
+
+let cellText = await page.
+
+locator('//table[@id="table1"]/tbody/tr').nth(j).locator('td').nth(i).textContent();
+        
+
+
+page.locator('//table[@id="table1"]/tbody/tr').nth(0).locator('td').nth(0)page.locator('//table[@id="table1"]/tbody/tr').nth(0).locator('td').nth(1)page.locator('//table[@id="table1"]/tbody/tr').nth(0).locator('td').nth(2)page.locator('//table[@id="table1"]/tbody/tr').nth(0).locator('td').nth(3)page.locator('//table[@id="table1"]/tbody/tr').nth(0).locator('td').nth(4)page.locator('//table[@id="table1"]/tbody/tr').nth(0).locator('td').nth(5)page.locator('//table[@id="table1"]/tbody/tr').nth(1).locator('td').nth(0)page.locator('//table[@id="table1"]/tbody/tr').nth(1).locator('td').nth(1)page.locator('//table[@id="table1"]/tbody/tr').nth(1).locator('td').nth(2)page.locator('//table[@id="table1"]/tbody/tr').nth(1).locator('td').nth(3)page.locator('//table[@id="table1"]/tbody/tr').nth(1).locator('td').nth(4)page.locator('//table[@id="table1"]/tbody/tr').nth(1).locator('td').nth(5)
