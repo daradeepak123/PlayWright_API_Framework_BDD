@@ -4,7 +4,7 @@ Agenda
 	1. Multiple Elements at a time
 	2. Alerts
 	3. Switch tab
-	4. Screenshot
+	4. Screenshot file      
 	5. Record screen
 	6. Functional Flow
 
@@ -20,7 +20,7 @@ let countOfLinks= await links.lenght
 
 for(let i=0;i<countOfLinks;i++)
 {
-let textOnLinks=await links.nth(i).getattribute('href')
+let dualasban)
 console.log(textOnLinks)
 page.goto(textOnLinks)
 
@@ -29,6 +29,7 @@ page.goto(textOnLinks)
 
 
 
-
+Alerts
+	
 
 
