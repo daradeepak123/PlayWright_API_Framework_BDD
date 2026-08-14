@@ -1,0 +1,25 @@
+
+
+Agenda
+	1. Data management
+		a. interfaces
+		b. json object
+		c. excel file
+	2. Page Object model
+		
+
+
+export let interface Login{
+
+	username?:string,
+	password?:string
+}
+
+export const validUSerDetails:Login={
+	username:"Admin"
+	password:"admin123"
+
+}
+
+
+

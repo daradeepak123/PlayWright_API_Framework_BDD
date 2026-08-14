@@ -4,7 +4,12 @@
     "module": "CommonJS",
     "moduleResolution": "Node",
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./src/types", "./node_modules/@types"],
+    "resolveJsonModule": true,
     "strict": false,
     "skipLibCheck": true
   }
+  ,
+  "include": ["src/**/*", "scripts/**/*", "tests/**/*"]
 }

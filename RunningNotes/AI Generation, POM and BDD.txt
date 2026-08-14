@@ -1,0 +1,11 @@
+
+
+Agenda	
+	1. AI
+		a. Generative 
+		b. Agentic 
+		
+	2. MCP Server		
+	3. POM
+	4. BDD/Cucumber
+	5. Read data from excel file

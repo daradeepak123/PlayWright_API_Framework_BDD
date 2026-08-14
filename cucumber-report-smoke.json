@@ -1,0 +1,226 @@
+[
+  {
+    "description": "  Complete BDD examples demonstrating all features and best practices",
+    "elements": [
+      {
+        "description": "",
+        "id": "orangehrm-pim---advanced-scenarios;smoke001---verify-orangehrm-loads-successfully",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "SMOKE001 - Verify OrangeHRM Loads Successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1534560300
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 310060400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User is logged into OrangeHRM application",
+            "match": {
+              "location": "stepDefinitions\\PIM_StepDefinitions.ts:65"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 12238172700,
+              "error_message": "page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard**\" until \"load\"\n============================================================\n    at World.<anonymous> (C:\\Work\\SkillTransform\\PlayWrightsetUp\\stepDefinitions\\PIM_StepDefinitions.ts:70:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User navigates to PIM module",
+            "match": {
+              "location": "stepDefinitions\\PIM_StepDefinitions.ts:76"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Employee list page should be displayed",
+            "match": {
+              "location": "stepDefinitions\\PIM_StepDefinitions.ts:94"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 62269100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55990399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 51461800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          },
+          {
+            "name": "@pim",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "orangehrm-pim---advanced-scenarios;smoke002---employee-search-works",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "SMOKE002 - Employee Search Works",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1511742800
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 344385900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User is logged into OrangeHRM application",
+            "match": {
+              "location": "stepDefinitions\\PIM_StepDefinitions.ts:65"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 12339763299,
+              "error_message": "page.waitForURL: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/dashboard**\" until \"load\"\n============================================================\n    at World.<anonymous> (C:\\Work\\SkillTransform\\PlayWrightsetUp\\stepDefinitions\\PIM_StepDefinitions.ts:70:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User navigates to PIM module",
+            "match": {
+              "location": "stepDefinitions\\PIM_StepDefinitions.ts:76"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User searches for employee with name \"John\"",
+            "match": {
+              "location": "stepDefinitions\\PIM_StepDefinitions.ts:109"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Employee list should display matching results",
+            "match": {
+              "location": "stepDefinitions\\PIM_StepDefinitions.ts:115"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 66473799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56534800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46788000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@pim",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "orangehrm-pim---advanced-scenarios",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "OrangeHRM PIM - Advanced Scenarios",
+    "tags": [],
+    "uri": "features\\PIM_Advanced_Scenarios.feature"
+  }
+]

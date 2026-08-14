@@ -3,13 +3,36 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "read:testdata": "npm run build:scripts && node dist/scripts/readTestData.js",
+    "build:scripts": "tsc scripts/readTestData.ts --outDir dist/scripts --module commonjs --target es2019 --esModuleInterop true",
+    "test": "npx playwright test",
+    "test:pim": "npx playwright test tests/PIM_Module_Complete.spec.ts",
+    "test:debug": "npx playwright test --debug",
+    "test:headed": "npx playwright test --headed",
+    "bdd": "npx cucumber-js --require-module ts-node/register",
+    "bdd:smoke": "npx cucumber-js --profile smoke",
+    "bdd:regression": "npx cucumber-js --profile regression",
+    "bdd:chrome": "npx cucumber-js --profile chrome",
+    "bdd:firefox": "npx cucumber-js --profile firefox",
+    "bdd:report": "npx cucumber-js && npm run bdd:generate-report",
+    "bdd:generate-report": "node scripts/generateCucumberReport.js",
+    "report": "npx playwright show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
   "devDependencies": {
+    "@cucumber/cucumber": "^9.5.1",
     "@playwright/test": "^1.62.0",
-    "@types/node": "^26.1.2"
+    "@types/node": "^26.1.2",
+    "@types/xlsx": "^0.0.35",
+    "cucumber-html-reporter": "^7.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.6.0"
   }
 }

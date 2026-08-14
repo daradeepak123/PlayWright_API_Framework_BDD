@@ -1,0 +1,567 @@
+<?xml version="1.0"?>
+<testsuite failures="6" skipped="53" name="cucumber-js" time="0" tests="59">
+  <testcase classname="OrangeHRM PIM - Add Employee" name="TC001 - Add Employee with Minimum Required Data" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Add Employee button..................................skipped
+Then Add Employee form should be displayed...............................skipped
+When User enters employee first name "John"..............................skipped
+And User enters employee last name "Smith"...............................skipped
+And User clicks Save button..............................................skipped
+Then Employee should be added successfully...............................skipped
+And Success message should be displayed..................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Add Employee" name="TC002 - Add Employee with Full Details" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Add Employee button..................................skipped
+And User enters employee first name "Jane"...............................skipped
+And User enters employee last name "Doe".................................skipped
+And User enters employee ID "0999".......................................skipped
+And User uploads profile picture "/path/to/image.jpg"....................skipped
+And User clicks Save button..............................................skipped
+Then Employee should be added successfully...............................skipped
+And Employee should appear in the list...................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Add Employee" name="TC003 - Validation Error for Empty First Name" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Add Employee button..................................skipped
+And User leaves first name empty.........................................skipped
+And User enters employee last name "Doe".................................skipped
+And User clicks Save button..............................................skipped
+Then Validation error "First Name is required" should be displayed.......skipped
+And Employee should not be added.........................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Add Employee" name="TC004 - Validation Error for Empty Last Name" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Add Employee button..................................skipped
+And User enters employee first name "John"...............................skipped
+And User leaves last name empty..........................................skipped
+And User clicks Save button..............................................skipped
+Then Validation error "Last Name is required" should be displayed........skipped
+And Employee should not be added.........................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Add Employee" name="TC005 - Create Login Credentials for New Employee" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Add Employee button..................................skipped
+And User enters employee first name "Robert".............................skipped
+And User enters employee last name "Johnson".............................skipped
+And User checks "Create Login Details" checkbox..........................skipped
+Then Login fields should appear..........................................skipped
+When User enters username "robert.johnson"...............................skipped
+And User enters password "Pass@123"......................................skipped
+And User confirms password "Pass@123"....................................skipped
+And User clicks Save button..............................................skipped
+Then Employee should be added with login credentials.....................skipped
+And Login account should be created......................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Add Employee" name="TC006 - Cancel Add Employee" time="0">
+    <failure><![CDATA[Multiple step definitions match:
+  User clicks Cancel button - stepDefinitions\PIM_StepDefinitions.ts:397
+  User clicks Cancel button - stepDefinitions\PIM_StepDefinitions.ts:458]]></failure>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Add Employee button..................................skipped
+And User enters employee first name "Test"...............................skipped
+And User enters employee last name "User"................................skipped
+And User clicks Cancel button..........................................ambiguous
+Then Add Employee form should close......................................skipped
+And No employee should be added..........................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Add Employee" name="TC007 - Duplicate Employee ID Error" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Add Employee button..................................skipped
+And User enters employee first name "John"...............................skipped
+And User enters employee last name "Duplicate"...........................skipped
+And User enters employee ID "0001".......................................skipped
+And User clicks Save button..............................................skipped
+Then Validation error "Employee ID already exists" should be displayed...skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Add Employee" name="TC008 - Delete Uploaded Profile Picture" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Add Employee button..................................skipped
+And User uploads profile picture "/path/to/image.jpg"....................skipped
+And User clicks delete picture button....................................skipped
+Then Profile picture should be removed...................................skipped
+And Upload field should be empty.........................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Add Employee" name="TC009 - Required Fields Note Displayed" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Add Employee button..................................skipped
+Then Required fields note should be visible..............................skipped
+And Fields marked with asterisk should be highlighted....................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Add Employee" name="TC010 - Add Employee with Special Characters in Name" time="0">
+    <failure/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Add Employee button..................................skipped
+And User enters employee first name "José"...............................skipped
+And User enters employee last name "García-López"........................skipped
+And User clicks Save button..............................................skipped
+Then Employee should be added successfully...............................skipped
+And Special characters should be preserved in name.....................undefined]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="SMOKE001 - Verify OrangeHRM Loads Successfully" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+Then Employee list page should be displayed..............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="SMOKE002 - Employee Search Works" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User searches for employee with name "John"..........................skipped
+Then Employee list should display matching results.......................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="REG001 - Complete Employee Search Workflow" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User searches for employee with name "John"..........................skipped
+Then Employee list should display matching results.......................skipped
+And Results should contain employee "John"...............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="REG002 - Add New Employee with All Details" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User clicks on Add Employee button...................................skipped
+Then Add Employee form should be displayed...............................skipped
+When User enters employee first name "TestEmployee"......................skipped
+And User enters employee last name "Automation"..........................skipped
+And User enters employee ID "9999".......................................skipped
+And User clicks Save button..............................................skipped
+Then Employee should be added successfully...............................skipped
+And Success message should be displayed..................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="REG003 - Filter and Verify Employee Status" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User filters employees by employment status "Full-Time"..............skipped
+Then Only full-time employees should be displayed........................skipped
+When User resets all filters.............................................skipped
+Then All employees should be displayed again.............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="REG004 - Navigate and View Employee Tabs" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User searches for employee with name "John"..........................skipped
+And User clicks on first employee........................................skipped
+Then Employee details page should be displayed...........................skipped
+When User clicks on "Job Details" tab....................................skipped
+Then "Job Details" tab should be active..................................skipped
+When User clicks on "Contact Details" tab................................skipped
+Then "Contact Details" tab should be active..............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="INT001 - End-to-End Add Employee and View Details" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User clicks on Add Employee button...................................skipped
+And User enters employee first name "Integration"........................skipped
+And User enters employee last name "Test"................................skipped
+And User clicks Save button..............................................skipped
+Then Employee should be added successfully...............................skipped
+When User searches for employee with name "Integration"..................skipped
+And User clicks on first employee........................................skipped
+Then Employee details page should be displayed...........................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="INT002 - Access Reports from PIM" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User clicks on Reports menu..........................................skipped
+Then Reports page should be displayed....................................skipped
+And Report list should contain predefined reports........................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="EDGE001 - Validation Error for Missing First Name" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User clicks on Add Employee button...................................skipped
+And User leaves first name empty.........................................skipped
+And User enters employee last name "Doe".................................skipped
+And User clicks Save button..............................................skipped
+Then Validation error "First Name is required" should be displayed.......skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="EDGE002 - Special Characters in Employee Name" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User clicks on Add Employee button...................................skipped
+And User enters employee first name "José"...............................skipped
+And User enters employee last name "García-López"........................skipped
+And User clicks Save button..............................................skipped
+Then Employee should be added successfully...............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="EDGE003 - Search with No Results" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User searches for employee with name "NonExistentEmployee123XYZ".....skipped
+Then Employee list should display matching results.......................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="PERF001 - Large Data Set Navigation" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And Employee list has multiple pages.....................................skipped
+And User clicks next page button.........................................skipped
+Then Next page of employees should be displayed..........................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="MANUAL001 - Manual Verification of UI Elements" time="0">
+    <failure/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+Then Visual elements should be properly aligned........................undefined]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="SKIP001 - Disabled Test Scenario" time="0">
+    <failure/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+Then This test will not run............................................undefined]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="DATA001 - Employee Data Persistence" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User gets employee data from row 1...................................skipped
+Then Employee data should include First Name, Last Name, and Employee ...skipped
+And Data should not be empty.............................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="MULTI001 - Multiple Tag Test" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+Then Employee list page should be displayed..............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="CHROME001 - Chrome Browser Test" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+Then Employee list page should be displayed..............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="FIREFOX001 - Firefox Browser Test" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+Then Employee list page should be displayed..............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Advanced Scenarios" name="EXT001 - Full Employee Management Workflow" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+Then Employee list page should be displayed..............................skipped
+When User searches for employee with name "John".........................skipped
+And User clicks on first employee........................................skipped
+Then Employee details page should be displayed...........................skipped
+When User clicks on "Job Details" tab....................................skipped
+Then "Job Details" tab should be active..................................skipped
+When User clicks on "Personal Details" tab...............................skipped
+Then Employee personal details should be visible.........................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Details" name="TC001 - View Employee Personal Details" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User searches for employee with name "John".........................skipped
+And User clicks on first employee........................................skipped
+Then Employee details page should be displayed...........................skipped
+And Personal details tab should be selected..............................skipped
+And Employee details should include: First Name, Last Name, Date of Bi...skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Details" name="TC002 - Navigate Between Tabs" time="0">
+    <failure/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User searches for employee with name "John".........................skipped
+And User clicks on first employee........................................skipped
+And User clicks on "Job Details" tab.....................................skipped
+Then Job Details tab should be active..................................undefined
+When User clicks on "Contact Details" tab................................skipped
+Then Contact Details tab should be active................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Details" name="TC003 - Edit Employee First Name" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User searches for employee with name "John".........................skipped
+And User clicks on first employee........................................skipped
+And User clicks Edit button..............................................skipped
+And User updates first name to "Johnny"..................................skipped
+And User clicks Save button..............................................skipped
+Then Success message should be displayed.................................skipped
+And First name should be updated to "Johnny".............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Details" name="TC004 - Edit Employee Mobile Number" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User searches for employee with name "John".........................skipped
+And User clicks on first employee........................................skipped
+And User clicks on "Contact Details" tab.................................skipped
+And User clicks Edit button..............................................skipped
+And User updates mobile number to "+1234567890"..........................skipped
+And User clicks Save button..............................................skipped
+Then Success message should be displayed.................................skipped
+And Mobile number should be updated......................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Details" name="TC005 - Cancel Employee Details Edit" time="0">
+    <failure><![CDATA[Multiple step definitions match:
+  User clicks Cancel button - stepDefinitions\PIM_StepDefinitions.ts:397
+  User clicks Cancel button - stepDefinitions\PIM_StepDefinitions.ts:458]]></failure>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User searches for employee with name "John".........................skipped
+And User clicks on first employee........................................skipped
+And User clicks Edit button..............................................skipped
+And User updates first name to "Cancel Test".............................skipped
+And User clicks Cancel button..........................................ambiguous
+Then Edit mode should exit...............................................skipped
+And First name should remain unchanged...................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Details" name="TC006 - View Job Details Tab" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User searches for employee with name "John".........................skipped
+And User clicks on first employee........................................skipped
+And User clicks on "Job Details" tab.....................................skipped
+Then Job title should be displayed.......................................skipped
+And Employment status should be displayed................................skipped
+And Hire date should be displayed........................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Details" name="TC007 - View Contact Details Tab" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User searches for employee with name "John".........................skipped
+And User clicks on first employee........................................skipped
+And User clicks on "Contact Details" tab.................................skipped
+Then Email should be displayed...........................................skipped
+And Mobile number field should be visible................................skipped
+And Address fields should be visible.....................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Details" name="TC008 - View Education Tab" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User searches for employee with name "John".........................skipped
+And User clicks on first employee........................................skipped
+And User clicks on "Education" tab.......................................skipped
+Then Education section should be displayed...............................skipped
+And Add education button should be available.............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Details" name="TC009 - View Skills Tab" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User searches for employee with name "John".........................skipped
+And User clicks on first employee........................................skipped
+And User clicks on "Skills" tab..........................................skipped
+Then Skills section should be displayed..................................skipped
+And Skill list should be visible.........................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Details" name="TC010 - View Work Experience Tab" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User searches for employee with name "John".........................skipped
+And User clicks on first employee........................................skipped
+And User clicks on "Work Experience" tab.................................skipped
+Then Work experience section should be displayed.........................skipped
+And Add work experience button should be available.......................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Management" name="TC001 - View Employee List" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+Then Employee list page should be displayed..............................skipped
+And Employee table should contain columns: "First Name", "Last Name", ...skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Management" name="TC002 - Search Employee by Name" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User searches for employee with name "John"..........................skipped
+Then Employee list should display matching results.......................skipped
+And Results should contain employee "John"...............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Management" name="TC003 - Search Employee by ID" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User searches for employee with ID "0001"............................skipped
+Then Employee list should display the employee...........................skipped
+And Employee ID should be "0001".........................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Management" name="TC004 - Filter Employees by Employment Status" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User filters employees by employment status "Full-Time"..............skipped
+Then Only full-time employees should be displayed........................skipped
+And Filter should remain active..........................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Management" name="TC005 - Reset Filters" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User filters employees by employment status "Full-Time"..............skipped
+And User resets all filters..............................................skipped
+Then All employees should be displayed again.............................skipped
+And No filters should be active..........................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Management" name="TC006 - Sort Employee Table by Column" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User sorts table by "First Name" in ascending order..................skipped
+Then Table should be sorted by "First Name"..............................skipped
+And First employee should appear at top..................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Management" name="TC007 - Select Single Employee" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User selects employee at row 1.......................................skipped
+Then Employee should be highlighted......................................skipped
+And Delete button should be enabled......................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Management" name="TC008 - Select Multiple Employees" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User selects employees at rows 1, 2, 3...............................skipped
+Then All selected employees should be highlighted........................skipped
+And Delete button should be enabled......................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Management" name="TC009 - Navigate to Next Page" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And Employee list has multiple pages.....................................skipped
+And User clicks next page button.........................................skipped
+Then Next page of employees should be displayed..........................skipped
+And Previous page button should be enabled...............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Management" name="TC010 - Get Employee Data from Table" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User gets employee data from row 1...................................skipped
+Then Employee data should include First Name, Last Name, and Employee ...skipped
+And Data should not be empty.............................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Management" name="TC011 - Employee Exists in List" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User searches for employee "John" "Doe"..............................skipped
+Then Employee "John Doe" should exist in the list........................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Management" name="TC012 - Navigate to Employee Details" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+When User navigates to PIM module........................................skipped
+And User searches for employee with name "John"..........................skipped
+And User clicks on first employee........................................skipped
+Then Employee details page should be displayed...........................skipped
+And Employee personal details should be visible..........................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Reports" name="TC001 - View All Employee Reports" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Reports menu.........................................skipped
+Then Reports page should be displayed....................................skipped
+And Report list should contain predefined reports........................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Reports" name="TC002 - Search Report by Name" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Reports menu.........................................skipped
+And User searches for report "Employee Sales Report".....................skipped
+Then Report search results should be displayed...........................skipped
+And Report "Employee Sales Report" should be visible.....................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Reports" name="TC003 - Verify All Predefined Reports Exist" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Reports menu.........................................skipped
+Then Following reports should exist:.....................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Reports" name="TC004 - Open Employee Report" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Reports menu.........................................skipped
+And User searches for report "Employee Sales Report".....................skipped
+And User clicks to open report...........................................skipped
+Then Report should be displayed..........................................skipped
+And Report data should be visible........................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Reports" name="TC005 - Download Report" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Reports menu.........................................skipped
+And User searches for report "Employee Sales Report".....................skipped
+And User clicks download button..........................................skipped
+Then Report file should be downloaded....................................skipped
+And File should be in PDF or Excel format................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Reports" name="TC006 - Edit Report" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Reports menu.........................................skipped
+And User searches for report "Employee Sales Report".....................skipped
+And User clicks edit button..............................................skipped
+Then Edit report form should be displayed................................skipped
+And Report details should be editable....................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Reports" name="TC007 - Delete Report" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Reports menu.........................................skipped
+And User selects report "Test Report"....................................skipped
+And User clicks delete button............................................skipped
+And User confirms deletion...............................................skipped
+Then Report should be deleted............................................skipped
+And Success message should be displayed..................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="OrangeHRM PIM - Employee Reports" name="TC008 - Create Custom Report" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User is logged into OrangeHRM application..........................skipped
+And User navigates to PIM module.........................................skipped
+When User clicks on Reports menu.........................................skipped
+And User clicks "Create Report" button...................................skipped
+And User enters report name "Custom Sales Report"........................skipped
+And User enters report description "Sales data for Q4"...................skipped
+And User clicks Save button..............................................skipped
+Then Custom report should be created.....................................skipped
+And Report should appear in the list.....................................skipped]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,16 +1,31 @@
 
 
-export interface Login{
+export interface register{
+    
+}
+
+
+
+export interface LoginTestData{  //undefined
 
     userName?:string,
     password?:string,
 }
 
-const validUser:Login={
-    
+export const validUser:LoginTestData={
+    userName:'Admin',
     password:'admin123'
 }
+export const missingUserName:LoginTestData={
+    password:'admin'
+}
 
-console.log(validUser.userName)
+export const invalidvalidUser:LoginTestData={
+     userName:'Admin',
+    password:'admin'
+       
+}
 
-console.log(validUser.password)
+export const missingUserPassword:LoginTestData={
+    password:'admin'   
+}
