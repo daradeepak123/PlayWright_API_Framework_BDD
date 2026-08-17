@@ -6,6 +6,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "typeRoots": ["./src/types", "./node_modules/@types"],
+    "types": ["node"],
     "resolveJsonModule": true,
     "strict": false,
     "skipLibCheck": true

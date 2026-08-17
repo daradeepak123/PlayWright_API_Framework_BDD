@@ -8,6 +8,7 @@
     "build:scripts": "tsc scripts/readTestData.ts --outDir dist/scripts --module commonjs --target es2019 --esModuleInterop true",
     "test": "npx playwright test",
     "test:pim": "npx playwright test tests/PIM_Module_Complete.spec.ts",
+    "test:api": "npx playwright test tests/reqresApi.spec.ts --reporter=line",
     "test:debug": "npx playwright test --debug",
     "test:headed": "npx playwright test --headed",
     "bdd": "npx cucumber-js --require-module ts-node/register",
@@ -32,6 +33,7 @@
     "@types/node": "^26.1.2",
     "@types/xlsx": "^0.0.35",
     "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^17.4.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.6.0"
   }

@@ -1,0 +1,66 @@
+- generic [active] [ref=f7e1]:
+  - link "Skip to content":
+    - /url: "#skip2content"
+  - banner [ref=f7e2]:
+    - generic [ref=f7e4]:
+      - link "Jenkins" [ref=f7e5] [cursor=pointer]:
+        - /url: /
+      - generic "breadcrumb" [ref=f7e8]:
+        - list
+    - generic [ref=f7e9]:
+      - button "Search" [ref=f7e10] [cursor=pointer]
+      - link "Manage Jenkins" [ref=f7e15] [cursor=pointer]:
+        - /url: /manage
+      - link "dara deepak" [ref=f7e21] [cursor=pointer]:
+        - /url: /user/deepak
+  - generic [ref=f7e26]:
+    - generic [ref=f7e27]:
+      - generic [ref=f7e28]:
+        - link [ref=f7e31] [cursor=pointer]:
+          - /url: /view/all/newJob
+        - link [ref=f7e37] [cursor=pointer]:
+          - /url: /view/all/builds
+      - generic [ref=f7e42]:
+        - generic [ref=f7e43]:
+          - generic [ref=f7e44]: Build Queue
+          - link "collapse" [ref=f7e45] [cursor=pointer]:
+            - /url: /toggleCollapse?paneId=buildQueue
+        - table [ref=f7e49]:
+          - rowgroup [ref=f7e50]:
+            - row [ref=f7e51]:
+              - cell "No builds in the queue." [ref=f7e52]
+      - generic [ref=f7e54]:
+        - link "Build Executor Status" [ref=f7e56] [cursor=pointer]:
+          - /url: /computer/
+        - generic "0 of 2 executors busy" [ref=f7e57]: 0/2
+        - link "Collapse" [ref=f7e58] [cursor=pointer]:
+          - /url: /toggleCollapse?paneId=executors
+    - generic [ref=f7e61]:
+      - link "Add description" [ref=f7e65] [cursor=pointer]:
+        - /url: editDescription
+      - generic [ref=f7e72]:
+        - heading "Welcome to Jenkins!" [level=1] [ref=f7e73]
+        - paragraph [ref=f7e74]: This page is where your Jenkins jobs will be displayed. To get started, you can set up distributed builds or start building a software project.
+        - generic [ref=f7e75]:
+          - heading "Start building your software project" [level=2] [ref=f7e76]
+          - list [ref=f7e77]:
+            - listitem [ref=f7e78]:
+              - link "Create a job" [ref=f7e79] [cursor=pointer]:
+                - /url: newJob
+        - generic [ref=f7e84]:
+          - heading "Set up a distributed build" [level=2] [ref=f7e85]
+          - list [ref=f7e86]:
+            - listitem [ref=f7e87]:
+              - link "Set up an agent" [ref=f7e88] [cursor=pointer]:
+                - /url: computer/new
+            - listitem [ref=f7e96]:
+              - link "Configure a cloud" [ref=f7e97] [cursor=pointer]:
+                - /url: cloud/
+            - listitem [ref=f7e102]:
+              - link "Learn more about distributed builds" [ref=f7e103] [cursor=pointer]:
+                - /url: https://www.jenkins.io/redirect/distributed-builds
+  - contentinfo [ref=f7e110]:
+    - generic [ref=f7e113]:
+      - link "REST API" [ref=f7e114] [cursor=pointer]:
+        - /url: api/
+      - button "Jenkins 2.568.2" [ref=f7e115] [cursor=pointer]
