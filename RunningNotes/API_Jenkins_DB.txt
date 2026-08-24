@@ -1,0 +1,18 @@
+
+
+Agenda
+	1. API    APplication programing Inter
+	2. Jenkins
+	3. DB
+
+
+
+1xx informational 
+2xx success   
+3xx redirection
+4xx request related information
+5xx server side information 
+
+
+
+
