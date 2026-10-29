@@ -9,6 +9,7 @@
     "test": "npx playwright test",
     "test:pim": "npx playwright test tests/PIM_Module_Complete.spec.ts",
     "test:api": "npx playwright test tests/reqresApi.spec.ts --reporter=line",
+    "test:db": "npx playwright test tests/sqlServer.spec.ts --project=chromium --reporter=line",
     "test:debug": "npx playwright test --debug",
     "test:headed": "npx playwright test --headed",
     "bdd": "npx cucumber-js --require-module ts-node/register",
