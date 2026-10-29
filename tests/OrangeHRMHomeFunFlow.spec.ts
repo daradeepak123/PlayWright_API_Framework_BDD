@@ -31,6 +31,4 @@ test('functional flow', async ({ page }) => {
         console.log(divHeading);
         expect(allTabSections.includes(divHeading)).toBeTruthy();
     }
-
-    await page.pause();
 });

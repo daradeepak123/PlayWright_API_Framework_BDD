@@ -31,7 +31,7 @@ test.describe('ReqRes API framework', () => {
   test('GET /api/users/{id} returns the correct user', async () => {
     const userId = await getLiveUserId();
     const response = await api.getUser(userId);
-
+    console.log(response)
     expect(response.data.id).toBe(userId);
     expect(response.data.email).toContain('@reqres.in');
   });
